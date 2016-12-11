@@ -1,0 +1,40 @@
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#scroll{
+			width: 200px;
+			height: 100px;
+			overflow-y:scroll;
+		}
+		#hidden1{
+			width: 200px;
+			height: 100px;
+			overflow-y:hidden;
+		}
+
+		#hidden2{
+			width: 200px;
+			height: 1px;
+			background: red;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="scroll">
+		这个属性定义溢出元素内容区的内容会如何处理。如果值为 scroll，不论是否需要，用户代理都会提供一种滚动机制。因此，有可能即使元素框中可以放下所有内容也会出现滚动条。默认值是 visible
+	</div>
+	<div id="hidden1">
+		这个属性定义溢出元素内容区的内容会如何处理。如果值为 scroll，不论是否需要，用户代理都会提供一种滚动机制。因此，有可能即使元素框中可以放下所有内容也会出现滚动条。默认值是 visible
+	</div>
+	
+	<br>
+	<br>
+	<br>
+	<div id="hidden2">
+	</div>
+</body>
+</html>
